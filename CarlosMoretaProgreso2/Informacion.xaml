@@ -7,11 +7,11 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="500" />
-            <RowDefinition Height="150" />
+            <RowDefinition Height="350" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1000"/>
-            <ColumnDefinition Width="550"/>
+            <ColumnDefinition Width="900"/>
+            <ColumnDefinition Width="450"/>
         </Grid.ColumnDefinitions>
 
         <Frame Grid.Row="0" 
@@ -19,15 +19,11 @@
                BorderColor="Gray" 
                CornerRadius="5" 
                Padding="10">
-               
-            <VerticalStackLayout>
-                <Label Text="Nombre:Carlos Moreta" 
+            <Label Text="Nombre:Carlos Moreta" 
                        FontAttributes="Bold" 
                        FontSize="18" 
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
-                
-            </VerticalStackLayout>
         </Frame>
 
         <Frame Grid.Row="0" 
@@ -35,14 +31,11 @@
                BorderColor="Gray" 
                CornerRadius="5" 
                Padding="10">
-            <VerticalStackLayout>
-                <Label Text="Fecha:05/06/2025"
+            <Label Text="Fecha:05/06/2025"
                        FontAttributes="Bold" 
                        FontSize="18" 
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
-                
-            </VerticalStackLayout>
         </Frame>
 
         <Frame Grid.Row="1" 
@@ -50,14 +43,12 @@
                BorderColor="Gray" 
                CornerRadius="5" 
                Padding="10">
-            <VerticalStackLayout>
-                <Label Text="Intereses:Dibujar" 
+            <Label Text="Intereses:Dibujar" 
                        FontAttributes="Bold" 
                        FontSize="18" 
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
-                
-            </VerticalStackLayout>
+               
         </Frame>
 
         <Frame Grid.Row="1" 
@@ -65,14 +56,11 @@
                BorderColor="Gray" 
                CornerRadius="5" 
                Padding="20">
-            <VerticalStackLayout>
-                <Label Text="Versión:1.0" 
+            <Label Text="Versión:1.0" 
                        FontAttributes="Bold" 
                        FontSize="18" 
                        HorizontalOptions="Center"
                        VerticalOptions="Center"/>
-                
-            </VerticalStackLayout>
         </Frame>
 
 
