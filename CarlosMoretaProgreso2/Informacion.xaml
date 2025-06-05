@@ -6,45 +6,74 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="500" />
+            <RowDefinition Height="150" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="1000"/>
+            <ColumnDefinition Width="550"/>
         </Grid.ColumnDefinitions>
-        <BoxView Color="AliceBlue"/>
-        <Label Text="Nombre= Carlos Moreta"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               FontAttributes="Bold"
-               FontSize="24"/>
-        <BoxView Grid.Row="1"
-                 Color="AliceBlue"/>
-        <Label Grid.Column="1"
-               Text="Fecha: 05/06/2025"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               TextColor="Black"
-               FontAttributes="Bold"
-               FontSize="24"/>
-        
-        <Label Grid.Row="1"
-               Text="Intereses : Dibujar"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               TextColor="Black"
-               FontAttributes="Bold"
-               FontSize="24"/>
-        
-        <Label Grid.Row="1"
-               Grid.Column="1"
-               Text="Version:1.0"
-               TextColor="Black"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               FontAttributes="Bold"
-               FontSize="24"/>
+
+        <Frame Grid.Row="0" 
+               Grid.Column="0" 
+               BorderColor="Gray" 
+               CornerRadius="5" 
+               Padding="10">
+               
+            <VerticalStackLayout>
+                <Label Text="Nombre:Carlos Moreta" 
+                       FontAttributes="Bold" 
+                       FontSize="18" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame Grid.Row="0" 
+               Grid.Column="1" 
+               BorderColor="Gray" 
+               CornerRadius="5" 
+               Padding="10">
+            <VerticalStackLayout>
+                <Label Text="Fecha:05/06/2025"
+                       FontAttributes="Bold" 
+                       FontSize="18" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame Grid.Row="1" 
+               Grid.Column="0" 
+               BorderColor="Gray" 
+               CornerRadius="5" 
+               Padding="10">
+            <VerticalStackLayout>
+                <Label Text="Intereses:Dibujar" 
+                       FontAttributes="Bold" 
+                       FontSize="18" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                
+            </VerticalStackLayout>
+        </Frame>
+
+        <Frame Grid.Row="1" 
+               Grid.Column="1" 
+               BorderColor="Gray" 
+               CornerRadius="5" 
+               Padding="20">
+            <VerticalStackLayout>
+                <Label Text="Versión:1.0" 
+                       FontAttributes="Bold" 
+                       FontSize="18" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+                
+            </VerticalStackLayout>
+        </Frame>
 
 
     </Grid>
