@@ -19,7 +19,6 @@ public partial class Chistes : ContentPage
     {
         try
         {
-            
             using var http = new HttpClient();
             var url = "https://official-joke-api.appspot.com/random_joke";
             var chiste = await http.GetFromJsonAsync<Joke>(url);
