@@ -6,11 +6,11 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="500" />
+            <RowDefinition Height="400" />
             <RowDefinition Height="350" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="900"/>
+            <ColumnDefinition Width="500"/>
             <ColumnDefinition Width="450"/>
         </Grid.ColumnDefinitions>
 
