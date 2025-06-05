@@ -9,14 +9,17 @@
             Spacing="25">
             <Label
                 Text="BIENVENIDOS A LA APLICACION DE CARLOS MORETA"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                FontSize="50"
                 Style="{StaticResource Headline}"
-                SemanticProperties.Description="Level1"/>
+                />
 
             <Image
                 Source="carlos.jpeg"
                 HeightRequest="185"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
+                />
 
             <Label
                 Text="Selecciona uno de los butones"
@@ -27,11 +30,21 @@
             <Button
                 x:Name="IraChistes"
                 Text="Chistes" 
-                Clicked="IraChistes_Clicked"/>
+                Clicked="IraChistes_Clicked"
+                VerticalOptions="Center"
+                FontSize="20"
+                HorizontalOptions="Fill"
+                BackgroundColor="Black"
+                />
             <Button
                 x:Name="IraInformacion"
                 Text="Informacion"
-                Clicked="IraInformacion_Clicked"/>
+                Clicked="IraInformacion_Clicked"
+                VerticalOptions="Center"
+                FontSize="20"
+                HorizontalOptions="Fill"
+                BackgroundColor="Black"/>
+                
         </VerticalStackLayout>
     </ScrollView>
 

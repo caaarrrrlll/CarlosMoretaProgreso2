@@ -11,12 +11,12 @@
 
         private void IraChistes_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ChistesPage());
+            Navigation.PushAsync(new Chistes());
         }
 
         private void IraInformacion_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new InformacionPage());
+            Navigation.PushAsync(new Informacion());
         }
     }
 

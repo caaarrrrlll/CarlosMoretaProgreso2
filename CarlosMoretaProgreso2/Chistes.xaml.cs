@@ -6,7 +6,7 @@ public partial class Chistes : ContentPage
 	{
 		InitializeComponent();
 	}
-	//dasddasdasd
+	
 
 
 }
